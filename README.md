@@ -1,3 +1,6 @@
 # NutaPos
 
-Automation Login Testing website nutacloud.com using Katalon
+Automation Testing using Katalon 
+
+Website : nutacloud.com 
+Test Case : Login Feature
