@@ -1,0 +1,6 @@
+{"testCaseName":"Test Cases/Login/Test Case/LGN001 - User Success Login","testCaseId":"Test Cases/Login/Test Case/LGN001 - User Success Login","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login/Test Case/LGN002 - User Failed Login - Username Field Empty","testCaseId":"Test Cases/Login/Test Case/LGN002 - User Failed Login - Username Field Empty","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login/Test Case/LGN003 - User Failed Login - Password Field Empty","testCaseId":"Test Cases/Login/Test Case/LGN003 - User Failed Login - Password Field Empty","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login/Test Case/LGN004 - User Failed Login - Incorrect Company Name","testCaseId":"Test Cases/Login/Test Case/LGN004 - User Failed Login - Incorrect Company Name","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login/Test Case/LGN005 - User Failed Login - Incorrect Username","testCaseId":"Test Cases/Login/Test Case/LGN005 - User Failed Login - Incorrect Username","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login/Test Case/LGN006 - User Failed Login - Incorrect Password","testCaseId":"Test Cases/Login/Test Case/LGN006 - User Failed Login - Incorrect Password","iterationVariableName":""}

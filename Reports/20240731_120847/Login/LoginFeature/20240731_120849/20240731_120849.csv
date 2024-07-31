@@ -1,0 +1,66 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+LoginFeature,Firefox 128.0,,,31-07-2024 12:09:23,31-07-2024 12:12:35,3m - 11.310s,PASSED
+,,,,,,,
+Test Cases/Login/Test Case/LGN001 - User Success Login,Firefox 128.0,,,31-07-2024 12:09:25,31-07-2024 12:10:54,1m - 28.772s,PASSED
+"openBrowser("""")",Firefox 128.0,,,31-07-2024 12:09:28,31-07-2024 12:10:00,32.044s,PASSED
+maximizeWindow(),Firefox 128.0,,,31-07-2024 12:10:00,31-07-2024 12:10:00,0.795s,PASSED
+"navigateToUrl(""https://www.nutacloud.com/authentication/loginv2"")",Firefox 128.0,,,31-07-2024 12:10:00,31-07-2024 12:10:03,2.787s,PASSED
+"callTestCase(findTestCase(""Login/Step Definition/User input correct Company""), [:], STOP_ON_FAILURE)",Firefox 128.0,,,31-07-2024 12:10:03,31-07-2024 12:10:09,5.594s,PASSED
+"callTestCase(findTestCase(""Login/Step Definition/User input correct Username""), [:], STOP_ON_FAILURE)",Firefox 128.0,,,31-07-2024 12:10:09,31-07-2024 12:10:12,2.752s,PASSED
+"callTestCase(findTestCase(""Login/Step Definition/User input correct Password""), [:], STOP_ON_FAILURE)",Firefox 128.0,,,31-07-2024 12:10:12,31-07-2024 12:10:13,1.187s,PASSED
+"callTestCase(findTestCase(""Login/Step Definition/User click Login Button""), [:], STOP_ON_FAILURE)",Firefox 128.0,,,31-07-2024 12:10:13,31-07-2024 12:10:25,12.232s,PASSED
+"callTestCase(findTestCase(""Login/Step Definition/Verify Dashboard""), [:], STOP_ON_FAILURE)",Firefox 128.0,,,31-07-2024 12:10:25,31-07-2024 12:10:49,23.637s,PASSED
+closeBrowser(),Firefox 128.0,,,31-07-2024 12:10:49,31-07-2024 12:10:54,5.000s,PASSED
+,,,,,,,
+Test Cases/Login/Test Case/LGN002 - User Failed Login - Username Field Empty,Firefox 128.0,,,31-07-2024 12:10:54,31-07-2024 12:11:20,26.665s,PASSED
+"openBrowser("""")",Firefox 128.0,,,31-07-2024 12:10:54,31-07-2024 12:11:10,16.237s,PASSED
+maximizeWindow(),Firefox 128.0,,,31-07-2024 12:11:10,31-07-2024 12:11:11,0.593s,PASSED
+"navigateToUrl(""https://www.nutacloud.com/authentication/loginv2"")",Firefox 128.0,,,31-07-2024 12:11:11,31-07-2024 12:11:13,1.852s,PASSED
+"callTestCase(findTestCase(""Login/Step Definition/User input correct Company""), [:], STOP_ON_FAILURE)",Firefox 128.0,,,31-07-2024 12:11:13,31-07-2024 12:11:14,1.092s,PASSED
+"callTestCase(findTestCase(""Login/Step Definition/User input correct Password""), [:], STOP_ON_FAILURE)",Firefox 128.0,,,31-07-2024 12:11:14,31-07-2024 12:11:15,0.624s,PASSED
+"callTestCase(findTestCase(""Login/Step Definition/User click Login Button""), [:], STOP_ON_FAILURE)",Firefox 128.0,,,31-07-2024 12:11:15,31-07-2024 12:11:16,1.158s,PASSED
+"callTestCase(findTestCase(""Login/Step Definition/Username Not Registered""), [:], STOP_ON_FAILURE)",Firefox 128.0,,,31-07-2024 12:11:16,31-07-2024 12:11:17,0.860s,PASSED
+closeBrowser(),Firefox 128.0,,,31-07-2024 12:11:17,31-07-2024 12:11:20,3.739s,PASSED
+,,,,,,,
+Test Cases/Login/Test Case/LGN003 - User Failed Login - Password Field Empty,Firefox 128.0,,,31-07-2024 12:11:20,31-07-2024 12:11:40,19.911s,PASSED
+"openBrowser("""")",Firefox 128.0,,,31-07-2024 12:11:21,31-07-2024 12:11:32,10.868s,PASSED
+maximizeWindow(),Firefox 128.0,,,31-07-2024 12:11:32,31-07-2024 12:11:32,0.502s,PASSED
+"navigateToUrl(""https://www.nutacloud.com/authentication/loginv2"")",Firefox 128.0,,,31-07-2024 12:11:32,31-07-2024 12:11:34,2.080s,PASSED
+"callTestCase(findTestCase(""Login/Step Definition/User input correct Company""), [:], STOP_ON_FAILURE)",Firefox 128.0,,,31-07-2024 12:11:34,31-07-2024 12:11:35,1.029s,PASSED
+"callTestCase(findTestCase(""Login/Step Definition/User input correct Username""), [:], STOP_ON_FAILURE)",Firefox 128.0,,,31-07-2024 12:11:35,31-07-2024 12:11:36,0.709s,PASSED
+"callTestCase(findTestCase(""Login/Step Definition/User click Login Button""), [:], STOP_ON_FAILURE)",Firefox 128.0,,,31-07-2024 12:11:36,31-07-2024 12:11:37,0.896s,PASSED
+"callTestCase(findTestCase(""Login/Step Definition/Password Incorrect""), [:], STOP_ON_FAILURE)",Firefox 128.0,,,31-07-2024 12:11:37,31-07-2024 12:11:38,0.884s,PASSED
+closeBrowser(),Firefox 128.0,,,31-07-2024 12:11:38,31-07-2024 12:11:40,2.384s,PASSED
+,,,,,,,
+Test Cases/Login/Test Case/LGN004 - User Failed Login - Incorrect Company Name,Firefox 128.0,,,31-07-2024 12:11:40,31-07-2024 12:11:56,16.090s,PASSED
+"openBrowser("""")",Firefox 128.0,,,31-07-2024 12:11:41,31-07-2024 12:11:49,8.208s,PASSED
+maximizeWindow(),Firefox 128.0,,,31-07-2024 12:11:49,31-07-2024 12:11:50,0.569s,PASSED
+"navigateToUrl(""https://www.nutacloud.com/authentication/loginv2"")",Firefox 128.0,,,31-07-2024 12:11:50,31-07-2024 12:11:51,1.560s,PASSED
+"callTestCase(findTestCase(""Login/Step Definition/User input incorrect Company""), [:], STOP_ON_FAILURE)",Firefox 128.0,,,31-07-2024 12:11:51,31-07-2024 12:11:52,0.941s,PASSED
+"callTestCase(findTestCase(""Login/Step Definition/User input correct Username""), [:], STOP_ON_FAILURE)",Firefox 128.0,,,31-07-2024 12:11:52,31-07-2024 12:11:52,0.400s,PASSED
+"callTestCase(findTestCase(""Login/Step Definition/User input correct Password""), [:], STOP_ON_FAILURE)",Firefox 128.0,,,31-07-2024 12:11:52,31-07-2024 12:11:53,0.468s,PASSED
+"callTestCase(findTestCase(""Login/Step Definition/User click Login Button""), [:], STOP_ON_FAILURE)",Firefox 128.0,,,31-07-2024 12:11:53,31-07-2024 12:11:54,0.788s,PASSED
+"callTestCase(findTestCase(""Login/Step Definition/Company Not Registered""), [:], STOP_ON_FAILURE)",Firefox 128.0,,,31-07-2024 12:11:54,31-07-2024 12:11:54,0.684s,PASSED
+closeBrowser(),Firefox 128.0,,,31-07-2024 12:11:54,31-07-2024 12:11:56,2.029s,PASSED
+,,,,,,,
+Test Cases/Login/Test Case/LGN005 - User Failed Login - Incorrect Username,Firefox 128.0,,,31-07-2024 12:11:56,31-07-2024 12:12:16,19.280s,PASSED
+"openBrowser("""")",Firefox 128.0,,,31-07-2024 12:11:57,31-07-2024 12:12:06,9.451s,PASSED
+maximizeWindow(),Firefox 128.0,,,31-07-2024 12:12:06,31-07-2024 12:12:07,0.520s,PASSED
+"navigateToUrl(""https://www.nutacloud.com/authentication/loginv2"")",Firefox 128.0,,,31-07-2024 12:12:07,31-07-2024 12:12:09,2.707s,PASSED
+"callTestCase(findTestCase(""Login/Step Definition/User input correct Company""), [:], STOP_ON_FAILURE)",Firefox 128.0,,,31-07-2024 12:12:09,31-07-2024 12:12:10,1.037s,PASSED
+"callTestCase(findTestCase(""Login/Step Definition/User input incorrect Username""), [:], STOP_ON_FAILURE)",Firefox 128.0,,,31-07-2024 12:12:10,31-07-2024 12:12:11,0.632s,PASSED
+"callTestCase(findTestCase(""Login/Step Definition/User input correct Password""), [:], STOP_ON_FAILURE)",Firefox 128.0,,,31-07-2024 12:12:11,31-07-2024 12:12:11,0.557s,PASSED
+"callTestCase(findTestCase(""Login/Step Definition/User click Login Button""), [:], STOP_ON_FAILURE)",Firefox 128.0,,,31-07-2024 12:12:11,31-07-2024 12:12:13,1.184s,PASSED
+"callTestCase(findTestCase(""Login/Step Definition/Username Not Registered""), [:], STOP_ON_FAILURE)",Firefox 128.0,,,31-07-2024 12:12:13,31-07-2024 12:12:13,0.632s,PASSED
+closeBrowser(),Firefox 128.0,,,31-07-2024 12:12:13,31-07-2024 12:12:16,2.422s,PASSED
+,,,,,,,
+Test Cases/Login/Test Case/LGN006 - User Failed Login - Incorrect Password,Firefox 128.0,,,31-07-2024 12:12:16,31-07-2024 12:12:35,18.944s,PASSED
+"openBrowser("""")",Firefox 128.0,,,31-07-2024 12:12:16,31-07-2024 12:12:26,9.966s,PASSED
+maximizeWindow(),Firefox 128.0,,,31-07-2024 12:12:26,31-07-2024 12:12:27,0.582s,PASSED
+"navigateToUrl(""https://www.nutacloud.com/authentication/loginv2"")",Firefox 128.0,,,31-07-2024 12:12:27,31-07-2024 12:12:28,1.600s,PASSED
+"callTestCase(findTestCase(""Login/Step Definition/User input correct Company""), [:], STOP_ON_FAILURE)",Firefox 128.0,,,31-07-2024 12:12:28,31-07-2024 12:12:29,1.262s,PASSED
+"callTestCase(findTestCase(""Login/Step Definition/User input correct Username""), [:], STOP_ON_FAILURE)",Firefox 128.0,,,31-07-2024 12:12:29,31-07-2024 12:12:30,0.431s,PASSED
+"callTestCase(findTestCase(""Login/Step Definition/User input incorrect Password""), [:], STOP_ON_FAILURE)",Firefox 128.0,,,31-07-2024 12:12:30,31-07-2024 12:12:31,0.725s,PASSED
+"callTestCase(findTestCase(""Login/Step Definition/User click Login Button""), [:], STOP_ON_FAILURE)",Firefox 128.0,,,31-07-2024 12:12:31,31-07-2024 12:12:31,0.888s,PASSED
+"callTestCase(findTestCase(""Login/Step Definition/Password Incorrect""), [:], STOP_ON_FAILURE)",Firefox 128.0,,,31-07-2024 12:12:31,31-07-2024 12:12:32,0.685s,PASSED
+closeBrowser(),Firefox 128.0,,,31-07-2024 12:12:32,31-07-2024 12:12:35,2.470s,PASSED

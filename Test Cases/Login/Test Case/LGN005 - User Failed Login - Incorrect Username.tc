@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LGN005 - User Failed Login - Incorrect Username</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d1190d0d-876f-41cc-9d96-1b89a3a0d9b2</testCaseGuid>
+</TestCaseEntity>

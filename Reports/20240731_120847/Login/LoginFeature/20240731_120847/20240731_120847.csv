@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+LoginFeature,,,,31-07-2024 12:09:20,31-07-2024 12:11:19,1m - 58.508s,FAILED
+,,,,,,,
+Test Cases/Login/Test Case/LGN001 - User Success Login,,,,31-07-2024 12:09:22,31-07-2024 12:10:02,40.909s,FAILED
+"openBrowser("""")",,,,31-07-2024 12:09:24,31-07-2024 12:10:02,37.822s,FAILED
+,,,,,,,
+Test Cases/Login/Test Case/LGN002 - User Failed Login - Username Field Empty,,,,31-07-2024 12:10:02,31-07-2024 12:10:26,23.416s,FAILED
+"openBrowser("""")",,,,31-07-2024 12:10:04,31-07-2024 12:10:26,21.660s,FAILED
+,,,,,,,
+Test Cases/Login/Test Case/LGN003 - User Failed Login - Password Field Empty,,,,31-07-2024 12:10:26,31-07-2024 12:10:34,8.256s,FAILED
+"openBrowser("""")",,,,31-07-2024 12:10:27,31-07-2024 12:10:34,7.401s,FAILED
+,,,,,,,
+Test Cases/Login/Test Case/LGN004 - User Failed Login - Incorrect Company Name,,,,31-07-2024 12:10:34,31-07-2024 12:10:42,7.645s,FAILED
+"openBrowser("""")",,,,31-07-2024 12:10:36,31-07-2024 12:10:42,6.101s,FAILED
+,,,,,,,
+Test Cases/Login/Test Case/LGN005 - User Failed Login - Incorrect Username,,,,31-07-2024 12:10:42,31-07-2024 12:11:06,24.179s,FAILED
+"openBrowser("""")",,,,31-07-2024 12:10:43,31-07-2024 12:11:06,23.498s,FAILED
+,,,,,,,
+Test Cases/Login/Test Case/LGN006 - User Failed Login - Incorrect Password,,,,31-07-2024 12:11:06,31-07-2024 12:11:19,12.468s,FAILED
+"openBrowser("""")",,,,31-07-2024 12:11:07,31-07-2024 12:11:19,11.938s,FAILED

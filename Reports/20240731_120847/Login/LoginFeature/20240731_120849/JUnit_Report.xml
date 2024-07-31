@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="LoginFeature" time="191.31" tests="6" failures="0" errors="0">
+   <testsuite name="LoginFeature" tests="6" failures="0" errors="0" time="191.31" skipped="0" timestamp="31-07-2024T12:09:23" hostname="aleph - 172.20.10.2" id="Test Suites/Login/LoginFeature">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/aleph/Katalon Studio/NutaPos/Reports/20240731_120847/Login/LoginFeature/20240731_120849"/>
+         <property name="logFiles" value="/Users/aleph/Katalon Studio/NutaPos/Reports/20240731_120847/Login/LoginFeature/20240731_120849/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="aleph - 172.20.10.2"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Firefox 128.0"/>
+         <property name="hostAddress" value="172.20.10.2"/>
+         <property name="sessionId" value="04047dba-5da9-4e09-92a7-ecc56c88455b"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Login/Test Case/LGN001 - User Success Login" time="88.772" classname="Test Cases/Login/Test Case/LGN001 - User Success Login" status="PASSED">
+         <system-out><![CDATA[31-07-2024T12:09:25 - [TEST_CASE][PASSED] - Test Cases/Login/Test Case/LGN001 - User Success Login: Test Cases/Login/Test Case/LGN001 - User Success Login
+
+31-07-2024T12:09:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+31-07-2024T12:09:30 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+31-07-2024T12:09:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+31-07-2024T12:10:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+31-07-2024T12:10:00 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+31-07-2024T12:10:00 - [MESSAGE][PASSED] - Current window maximized
+
+31-07-2024T12:10:00 - [TEST_STEP][PASSED] - navigateToUrl("https://www.nutacloud.com/authentication/loginv2"): Navigate to 'https://www.nutacloud.com/authentication/loginv2' successfully
+
+31-07-2024T12:10:03 - [MESSAGE][PASSED] - Navigate to 'https://www.nutacloud.com/authentication/loginv2' successfully
+
+31-07-2024T12:10:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/Step Definition/User input correct Company"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Step Definition/User input correct Company' successfully
+
+31-07-2024T12:10:04 - [TEST_CASE][PASSED] - Test Cases/Login/Step Definition/User input correct Company: Test Cases/Login/Step Definition/User input correct Company
+
+31-07-2024T12:10:05 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/CompanyField"), "Testing13"): Keys 'Testing13' sent to object: 'Object Repository/Login/CompanyField'
+
+31-07-2024T12:10:09 - [MESSAGE][PASSED] - Keys 'Testing13' sent to object: 'Object Repository/Login/CompanyField'
+
+31-07-2024T12:10:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Step Definition/User input correct Company' successfully
+
+31-07-2024T12:10:09 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/Step Definition/User input correct Username"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Step Definition/User input correct Username' successfully
+
+31-07-2024T12:10:09 - [TEST_CASE][PASSED] - Test Cases/Login/Step Definition/User input correct Username: Test Cases/Login/Step Definition/User input correct Username
+
+31-07-2024T12:10:10 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/UsernameField"), "tatag"): Keys 'tatag' sent to object: 'Object Repository/Login/UsernameField'
+
+31-07-2024T12:10:11 - [MESSAGE][PASSED] - Keys 'tatag' sent to object: 'Object Repository/Login/UsernameField'
+
+31-07-2024T12:10:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Step Definition/User input correct Username' successfully
+
+31-07-2024T12:10:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/Step Definition/User input correct Password"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Step Definition/User input correct Password' successfully
+
+31-07-2024T12:10:12 - [TEST_CASE][PASSED] - Test Cases/Login/Step Definition/User input correct Password: Test Cases/Login/Step Definition/User input correct Password
+
+31-07-2024T12:10:12 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/PasswordField"), "test123"): Keys 'test123' sent to object: 'Object Repository/Login/PasswordField'
+
+31-07-2024T12:10:13 - [MESSAGE][PASSED] - Keys 'test123' sent to object: 'Object Repository/Login/PasswordField'
+
+31-07-2024T12:10:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Step Definition/User input correct Password' successfully
+
+31-07-2024T12:10:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/Step Definition/User click Login Button"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Step Definition/User click Login Button' successfully
+
+31-07-2024T12:10:13 - [TEST_CASE][PASSED] - Test Cases/Login/Step Definition/User click Login Button: Test Cases/Login/Step Definition/User click Login Button
+
+31-07-2024T12:10:13 - [TEST_STEP][PASSED] - click(findTestObject("Login/LoginBtn")): Object: 'Object Repository/Login/LoginBtn' is clicked on
+
+31-07-2024T12:10:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/LoginBtn' is clicked on
+
+31-07-2024T12:10:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Step Definition/User click Login Button' successfully
+
+31-07-2024T12:10:25 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/Step Definition/Verify Dashboard"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Step Definition/Verify Dashboard' successfully
+
+31-07-2024T12:10:25 - [TEST_CASE][PASSED] - Test Cases/Login/Step Definition/Verify Dashboard: Test Cases/Login/Step Definition/Verify Dashboard
+
+31-07-2024T12:10:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login/Dashboard"), 10): Object 'Object Repository/Login/Dashboard' is present
+
+31-07-2024T12:10:49 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Dashboard' is present
+
+31-07-2024T12:10:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Step Definition/Verify Dashboard' successfully
+
+31-07-2024T12:10:49 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+31-07-2024T12:10:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Test Case/LGN002 - User Failed Login - Username Field Empty" time="26.665" classname="Test Cases/Login/Test Case/LGN002 - User Failed Login - Username Field Empty" status="PASSED">
+         <system-out><![CDATA[31-07-2024T12:10:54 - [TEST_CASE][PASSED] - Test Cases/Login/Test Case/LGN002 - User Failed Login - Username Field Empty: Test Cases/Login/Test Case/LGN002 - User Failed Login - Username Field Empty
+
+31-07-2024T12:10:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+31-07-2024T12:10:54 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+31-07-2024T12:10:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+31-07-2024T12:11:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+31-07-2024T12:11:10 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+31-07-2024T12:11:11 - [MESSAGE][PASSED] - Current window maximized
+
+31-07-2024T12:11:11 - [TEST_STEP][PASSED] - navigateToUrl("https://www.nutacloud.com/authentication/loginv2"): Navigate to 'https://www.nutacloud.com/authentication/loginv2' successfully
+
+31-07-2024T12:11:13 - [MESSAGE][PASSED] - Navigate to 'https://www.nutacloud.com/authentication/loginv2' successfully
+
+31-07-2024T12:11:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/Step Definition/User input correct Company"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Step Definition/User input correct Company' successfully
+
+31-07-2024T12:11:13 - [TEST_CASE][PASSED] - Test Cases/Login/Step Definition/User input correct Company: Test Cases/Login/Step Definition/User input correct Company
+
+31-07-2024T12:11:13 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/CompanyField"), "Testing13"): Keys 'Testing13' sent to object: 'Object Repository/Login/CompanyField'
+
+31-07-2024T12:11:14 - [MESSAGE][PASSED] - Keys 'Testing13' sent to object: 'Object Repository/Login/CompanyField'
+
+31-07-2024T12:11:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Step Definition/User input correct Company' successfully
+
+31-07-2024T12:11:14 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/Step Definition/User input correct Password"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Step Definition/User input correct Password' successfully
+
+31-07-2024T12:11:14 - [TEST_CASE][PASSED] - Test Cases/Login/Step Definition/User input correct Password: Test Cases/Login/Step Definition/User input correct Password
+
+31-07-2024T12:11:14 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/PasswordField"), "test123"): Keys 'test123' sent to object: 'Object Repository/Login/PasswordField'
+
+31-07-2024T12:11:15 - [MESSAGE][PASSED] - Keys 'test123' sent to object: 'Object Repository/Login/PasswordField'
+
+31-07-2024T12:11:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Step Definition/User input correct Password' successfully
+
+31-07-2024T12:11:15 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/Step Definition/User click Login Button"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Step Definition/User click Login Button' successfully
+
+31-07-2024T12:11:15 - [TEST_CASE][PASSED] - Test Cases/Login/Step Definition/User click Login Button: Test Cases/Login/Step Definition/User click Login Button
+
+31-07-2024T12:11:15 - [TEST_STEP][PASSED] - click(findTestObject("Login/LoginBtn")): Object: 'Object Repository/Login/LoginBtn' is clicked on
+
+31-07-2024T12:11:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/LoginBtn' is clicked on
+
+31-07-2024T12:11:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Step Definition/User click Login Button' successfully
+
+31-07-2024T12:11:16 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/Step Definition/Username Not Registered"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Step Definition/Username Not Registered' successfully
+
+31-07-2024T12:11:16 - [TEST_CASE][PASSED] - Test Cases/Login/Step Definition/Username Not Registered: Test Cases/Login/Step Definition/Username Not Registered
+
+31-07-2024T12:11:16 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Login/UsernameNotRegistered"), "Username tidak terdaftar."): Actual text and expected text of test object 'Object Repository/Login/UsernameNotRegistered' are matched.
+
+31-07-2024T12:11:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/UsernameNotRegistered' are matched.
+
+31-07-2024T12:11:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Step Definition/Username Not Registered' successfully
+
+31-07-2024T12:11:17 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+31-07-2024T12:11:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Test Case/LGN003 - User Failed Login - Password Field Empty" time="19.911" classname="Test Cases/Login/Test Case/LGN003 - User Failed Login - Password Field Empty" status="PASSED">
+         <system-out><![CDATA[31-07-2024T12:11:20 - [TEST_CASE][PASSED] - Test Cases/Login/Test Case/LGN003 - User Failed Login - Password Field Empty: Test Cases/Login/Test Case/LGN003 - User Failed Login - Password Field Empty
+
+31-07-2024T12:11:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+31-07-2024T12:11:21 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+31-07-2024T12:11:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+31-07-2024T12:11:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+31-07-2024T12:11:32 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+31-07-2024T12:11:32 - [MESSAGE][PASSED] - Current window maximized
+
+31-07-2024T12:11:32 - [TEST_STEP][PASSED] - navigateToUrl("https://www.nutacloud.com/authentication/loginv2"): Navigate to 'https://www.nutacloud.com/authentication/loginv2' successfully
+
+31-07-2024T12:11:34 - [MESSAGE][PASSED] - Navigate to 'https://www.nutacloud.com/authentication/loginv2' successfully
+
+31-07-2024T12:11:34 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/Step Definition/User input correct Company"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Step Definition/User input correct Company' successfully
+
+31-07-2024T12:11:34 - [TEST_CASE][PASSED] - Test Cases/Login/Step Definition/User input correct Company: Test Cases/Login/Step Definition/User input correct Company
+
+31-07-2024T12:11:34 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/CompanyField"), "Testing13"): Keys 'Testing13' sent to object: 'Object Repository/Login/CompanyField'
+
+31-07-2024T12:11:35 - [MESSAGE][PASSED] - Keys 'Testing13' sent to object: 'Object Repository/Login/CompanyField'
+
+31-07-2024T12:11:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Step Definition/User input correct Company' successfully
+
+31-07-2024T12:11:35 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/Step Definition/User input correct Username"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Step Definition/User input correct Username' successfully
+
+31-07-2024T12:11:35 - [TEST_CASE][PASSED] - Test Cases/Login/Step Definition/User input correct Username: Test Cases/Login/Step Definition/User input correct Username
+
+31-07-2024T12:11:36 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/UsernameField"), "tatag"): Keys 'tatag' sent to object: 'Object Repository/Login/UsernameField'
+
+31-07-2024T12:11:36 - [MESSAGE][PASSED] - Keys 'tatag' sent to object: 'Object Repository/Login/UsernameField'
+
+31-07-2024T12:11:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Step Definition/User input correct Username' successfully
+
+31-07-2024T12:11:36 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/Step Definition/User click Login Button"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Step Definition/User click Login Button' successfully
+
+31-07-2024T12:11:36 - [TEST_CASE][PASSED] - Test Cases/Login/Step Definition/User click Login Button: Test Cases/Login/Step Definition/User click Login Button
+
+31-07-2024T12:11:36 - [TEST_STEP][PASSED] - click(findTestObject("Login/LoginBtn")): Object: 'Object Repository/Login/LoginBtn' is clicked on
+
+31-07-2024T12:11:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/LoginBtn' is clicked on
+
+31-07-2024T12:11:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Step Definition/User click Login Button' successfully
+
+31-07-2024T12:11:37 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/Step Definition/Password Incorrect"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Step Definition/Password Incorrect' successfully
+
+31-07-2024T12:11:37 - [TEST_CASE][PASSED] - Test Cases/Login/Step Definition/Password Incorrect: Test Cases/Login/Step Definition/Password Incorrect
+
+31-07-2024T12:11:37 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Login/PasswordIncorrect"), "Password salah."): Actual text and expected text of test object 'Object Repository/Login/PasswordIncorrect' are matched.
+
+31-07-2024T12:11:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/PasswordIncorrect' are matched.
+
+31-07-2024T12:11:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Step Definition/Password Incorrect' successfully
+
+31-07-2024T12:11:38 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+31-07-2024T12:11:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Test Case/LGN004 - User Failed Login - Incorrect Company Name" time="16.09" classname="Test Cases/Login/Test Case/LGN004 - User Failed Login - Incorrect Company Name" status="PASSED">
+         <system-out><![CDATA[31-07-2024T12:11:40 - [TEST_CASE][PASSED] - Test Cases/Login/Test Case/LGN004 - User Failed Login - Incorrect Company Name: Test Cases/Login/Test Case/LGN004 - User Failed Login - Incorrect Company Name
+
+31-07-2024T12:11:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+31-07-2024T12:11:41 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+31-07-2024T12:11:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+31-07-2024T12:11:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+31-07-2024T12:11:49 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+31-07-2024T12:11:50 - [MESSAGE][PASSED] - Current window maximized
+
+31-07-2024T12:11:50 - [TEST_STEP][PASSED] - navigateToUrl("https://www.nutacloud.com/authentication/loginv2"): Navigate to 'https://www.nutacloud.com/authentication/loginv2' successfully
+
+31-07-2024T12:11:51 - [MESSAGE][PASSED] - Navigate to 'https://www.nutacloud.com/authentication/loginv2' successfully
+
+31-07-2024T12:11:51 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/Step Definition/User input incorrect Company"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Step Definition/User input incorrect Company' successfully
+
+31-07-2024T12:11:51 - [TEST_CASE][PASSED] - Test Cases/Login/Step Definition/User input incorrect Company: Test Cases/Login/Step Definition/User input incorrect Company
+
+31-07-2024T12:11:51 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/CompanyField"), "Test14"): Keys 'Test14' sent to object: 'Object Repository/Login/CompanyField'
+
+31-07-2024T12:11:52 - [MESSAGE][PASSED] - Keys 'Test14' sent to object: 'Object Repository/Login/CompanyField'
+
+31-07-2024T12:11:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Step Definition/User input incorrect Company' successfully
+
+31-07-2024T12:11:52 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/Step Definition/User input correct Username"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Step Definition/User input correct Username' successfully
+
+31-07-2024T12:11:52 - [TEST_CASE][PASSED] - Test Cases/Login/Step Definition/User input correct Username: Test Cases/Login/Step Definition/User input correct Username
+
+31-07-2024T12:11:52 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/UsernameField"), "tatag"): Keys 'tatag' sent to object: 'Object Repository/Login/UsernameField'
+
+31-07-2024T12:11:52 - [MESSAGE][PASSED] - Keys 'tatag' sent to object: 'Object Repository/Login/UsernameField'
+
+31-07-2024T12:11:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Step Definition/User input correct Username' successfully
+
+31-07-2024T12:11:52 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/Step Definition/User input correct Password"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Step Definition/User input correct Password' successfully
+
+31-07-2024T12:11:53 - [TEST_CASE][PASSED] - Test Cases/Login/Step Definition/User input correct Password: Test Cases/Login/Step Definition/User input correct Password
+
+31-07-2024T12:11:53 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/PasswordField"), "test123"): Keys 'test123' sent to object: 'Object Repository/Login/PasswordField'
+
+31-07-2024T12:11:53 - [MESSAGE][PASSED] - Keys 'test123' sent to object: 'Object Repository/Login/PasswordField'
+
+31-07-2024T12:11:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Step Definition/User input correct Password' successfully
+
+31-07-2024T12:11:53 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/Step Definition/User click Login Button"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Step Definition/User click Login Button' successfully
+
+31-07-2024T12:11:53 - [TEST_CASE][PASSED] - Test Cases/Login/Step Definition/User click Login Button: Test Cases/Login/Step Definition/User click Login Button
+
+31-07-2024T12:11:53 - [TEST_STEP][PASSED] - click(findTestObject("Login/LoginBtn")): Object: 'Object Repository/Login/LoginBtn' is clicked on
+
+31-07-2024T12:11:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/LoginBtn' is clicked on
+
+31-07-2024T12:11:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Step Definition/User click Login Button' successfully
+
+31-07-2024T12:11:54 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/Step Definition/Company Not Registered"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Step Definition/Company Not Registered' successfully
+
+31-07-2024T12:11:54 - [TEST_CASE][PASSED] - Test Cases/Login/Step Definition/Company Not Registered: Test Cases/Login/Step Definition/Company Not Registered
+
+31-07-2024T12:11:54 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Login/CompanyNotRegistered"), "Nama Perusahaan tidak terdaftar."): Actual text and expected text of test object 'Object Repository/Login/CompanyNotRegistered' are matched.
+
+31-07-2024T12:11:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/CompanyNotRegistered' are matched.
+
+31-07-2024T12:11:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Step Definition/Company Not Registered' successfully
+
+31-07-2024T12:11:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+31-07-2024T12:11:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Test Case/LGN005 - User Failed Login - Incorrect Username" time="19.28" classname="Test Cases/Login/Test Case/LGN005 - User Failed Login - Incorrect Username" status="PASSED">
+         <system-out><![CDATA[31-07-2024T12:11:56 - [TEST_CASE][PASSED] - Test Cases/Login/Test Case/LGN005 - User Failed Login - Incorrect Username: Test Cases/Login/Test Case/LGN005 - User Failed Login - Incorrect Username
+
+31-07-2024T12:11:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+31-07-2024T12:11:57 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+31-07-2024T12:11:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+31-07-2024T12:12:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+31-07-2024T12:12:06 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+31-07-2024T12:12:07 - [MESSAGE][PASSED] - Current window maximized
+
+31-07-2024T12:12:07 - [TEST_STEP][PASSED] - navigateToUrl("https://www.nutacloud.com/authentication/loginv2"): Navigate to 'https://www.nutacloud.com/authentication/loginv2' successfully
+
+31-07-2024T12:12:09 - [MESSAGE][PASSED] - Navigate to 'https://www.nutacloud.com/authentication/loginv2' successfully
+
+31-07-2024T12:12:09 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/Step Definition/User input correct Company"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Step Definition/User input correct Company' successfully
+
+31-07-2024T12:12:09 - [TEST_CASE][PASSED] - Test Cases/Login/Step Definition/User input correct Company: Test Cases/Login/Step Definition/User input correct Company
+
+31-07-2024T12:12:09 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/CompanyField"), "Testing13"): Keys 'Testing13' sent to object: 'Object Repository/Login/CompanyField'
+
+31-07-2024T12:12:10 - [MESSAGE][PASSED] - Keys 'Testing13' sent to object: 'Object Repository/Login/CompanyField'
+
+31-07-2024T12:12:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Step Definition/User input correct Company' successfully
+
+31-07-2024T12:12:10 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/Step Definition/User input incorrect Username"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Step Definition/User input incorrect Username' successfully
+
+31-07-2024T12:12:10 - [TEST_CASE][PASSED] - Test Cases/Login/Step Definition/User input incorrect Username: Test Cases/Login/Step Definition/User input incorrect Username
+
+31-07-2024T12:12:10 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/UsernameField"), "23ww223"): Keys '23ww223' sent to object: 'Object Repository/Login/UsernameField'
+
+31-07-2024T12:12:11 - [MESSAGE][PASSED] - Keys '23ww223' sent to object: 'Object Repository/Login/UsernameField'
+
+31-07-2024T12:12:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Step Definition/User input incorrect Username' successfully
+
+31-07-2024T12:12:11 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/Step Definition/User input correct Password"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Step Definition/User input correct Password' successfully
+
+31-07-2024T12:12:11 - [TEST_CASE][PASSED] - Test Cases/Login/Step Definition/User input correct Password: Test Cases/Login/Step Definition/User input correct Password
+
+31-07-2024T12:12:11 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/PasswordField"), "test123"): Keys 'test123' sent to object: 'Object Repository/Login/PasswordField'
+
+31-07-2024T12:12:11 - [MESSAGE][PASSED] - Keys 'test123' sent to object: 'Object Repository/Login/PasswordField'
+
+31-07-2024T12:12:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Step Definition/User input correct Password' successfully
+
+31-07-2024T12:12:11 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/Step Definition/User click Login Button"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Step Definition/User click Login Button' successfully
+
+31-07-2024T12:12:12 - [TEST_CASE][PASSED] - Test Cases/Login/Step Definition/User click Login Button: Test Cases/Login/Step Definition/User click Login Button
+
+31-07-2024T12:12:12 - [TEST_STEP][PASSED] - click(findTestObject("Login/LoginBtn")): Object: 'Object Repository/Login/LoginBtn' is clicked on
+
+31-07-2024T12:12:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/LoginBtn' is clicked on
+
+31-07-2024T12:12:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Step Definition/User click Login Button' successfully
+
+31-07-2024T12:12:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/Step Definition/Username Not Registered"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Step Definition/Username Not Registered' successfully
+
+31-07-2024T12:12:13 - [TEST_CASE][PASSED] - Test Cases/Login/Step Definition/Username Not Registered: Test Cases/Login/Step Definition/Username Not Registered
+
+31-07-2024T12:12:13 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Login/UsernameNotRegistered"), "Username tidak terdaftar."): Actual text and expected text of test object 'Object Repository/Login/UsernameNotRegistered' are matched.
+
+31-07-2024T12:12:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/UsernameNotRegistered' are matched.
+
+31-07-2024T12:12:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Step Definition/Username Not Registered' successfully
+
+31-07-2024T12:12:13 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+31-07-2024T12:12:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Test Case/LGN006 - User Failed Login - Incorrect Password" time="18.944" classname="Test Cases/Login/Test Case/LGN006 - User Failed Login - Incorrect Password" status="PASSED">
+         <system-out><![CDATA[31-07-2024T12:12:16 - [TEST_CASE][PASSED] - Test Cases/Login/Test Case/LGN006 - User Failed Login - Incorrect Password: Test Cases/Login/Test Case/LGN006 - User Failed Login - Incorrect Password
+
+31-07-2024T12:12:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+31-07-2024T12:12:16 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+31-07-2024T12:12:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+31-07-2024T12:12:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+31-07-2024T12:12:26 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+31-07-2024T12:12:27 - [MESSAGE][PASSED] - Current window maximized
+
+31-07-2024T12:12:27 - [TEST_STEP][PASSED] - navigateToUrl("https://www.nutacloud.com/authentication/loginv2"): Navigate to 'https://www.nutacloud.com/authentication/loginv2' successfully
+
+31-07-2024T12:12:28 - [MESSAGE][PASSED] - Navigate to 'https://www.nutacloud.com/authentication/loginv2' successfully
+
+31-07-2024T12:12:28 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/Step Definition/User input correct Company"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Step Definition/User input correct Company' successfully
+
+31-07-2024T12:12:28 - [TEST_CASE][PASSED] - Test Cases/Login/Step Definition/User input correct Company: Test Cases/Login/Step Definition/User input correct Company
+
+31-07-2024T12:12:28 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/CompanyField"), "Testing13"): Keys 'Testing13' sent to object: 'Object Repository/Login/CompanyField'
+
+31-07-2024T12:12:29 - [MESSAGE][PASSED] - Keys 'Testing13' sent to object: 'Object Repository/Login/CompanyField'
+
+31-07-2024T12:12:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Step Definition/User input correct Company' successfully
+
+31-07-2024T12:12:29 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/Step Definition/User input correct Username"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Step Definition/User input correct Username' successfully
+
+31-07-2024T12:12:29 - [TEST_CASE][PASSED] - Test Cases/Login/Step Definition/User input correct Username: Test Cases/Login/Step Definition/User input correct Username
+
+31-07-2024T12:12:30 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/UsernameField"), "tatag"): Keys 'tatag' sent to object: 'Object Repository/Login/UsernameField'
+
+31-07-2024T12:12:30 - [MESSAGE][PASSED] - Keys 'tatag' sent to object: 'Object Repository/Login/UsernameField'
+
+31-07-2024T12:12:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Step Definition/User input correct Username' successfully
+
+31-07-2024T12:12:30 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/Step Definition/User input incorrect Password"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Step Definition/User input incorrect Password' successfully
+
+31-07-2024T12:12:30 - [TEST_CASE][PASSED] - Test Cases/Login/Step Definition/User input incorrect Password: Test Cases/Login/Step Definition/User input incorrect Password
+
+31-07-2024T12:12:30 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Login/PasswordField"), "akdmwkd"): Keys 'akdmwkd' sent to object: 'Object Repository/Login/PasswordField'
+
+31-07-2024T12:12:30 - [MESSAGE][PASSED] - Keys 'akdmwkd' sent to object: 'Object Repository/Login/PasswordField'
+
+31-07-2024T12:12:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Step Definition/User input incorrect Password' successfully
+
+31-07-2024T12:12:31 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/Step Definition/User click Login Button"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Step Definition/User click Login Button' successfully
+
+31-07-2024T12:12:31 - [TEST_CASE][PASSED] - Test Cases/Login/Step Definition/User click Login Button: Test Cases/Login/Step Definition/User click Login Button
+
+31-07-2024T12:12:31 - [TEST_STEP][PASSED] - click(findTestObject("Login/LoginBtn")): Object: 'Object Repository/Login/LoginBtn' is clicked on
+
+31-07-2024T12:12:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/LoginBtn' is clicked on
+
+31-07-2024T12:12:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Step Definition/User click Login Button' successfully
+
+31-07-2024T12:12:31 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Login/Step Definition/Password Incorrect"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Login/Step Definition/Password Incorrect' successfully
+
+31-07-2024T12:12:32 - [TEST_CASE][PASSED] - Test Cases/Login/Step Definition/Password Incorrect: Test Cases/Login/Step Definition/Password Incorrect
+
+31-07-2024T12:12:32 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Login/PasswordIncorrect"), "Password salah."): Actual text and expected text of test object 'Object Repository/Login/PasswordIncorrect' are matched.
+
+31-07-2024T12:12:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/PasswordIncorrect' are matched.
+
+31-07-2024T12:12:32 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/Step Definition/Password Incorrect' successfully
+
+31-07-2024T12:12:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+31-07-2024T12:12:35 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[31-07-2024T12:09:23 - [TEST_SUITE][PASSED] - LoginFeature: Test Cases/Login/Test Case/LGN006 - User Failed Login - Incorrect Password]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
